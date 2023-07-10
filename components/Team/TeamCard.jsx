@@ -11,7 +11,7 @@ export default function TeamCard({name, role, image}) {
     return (
         <div className={styles.container}>
             <div className={styles.image}>
-                <Image src={image} alt={name} className={styles.img} width={250} height={250}/>
+                <Image src={image} alt={name} className={styles.img} />
             </div>
             <div className={cn(inter.className, styles.textContainer)}>
                 <div className={cn(inter.className, styles.name)}>{name}</div>

@@ -86,7 +86,7 @@ export default function About() {
                         "overflow-hidden, -ms-6",
                     )}
                 >
-                    <Image className={styles.gif4} alt="also" width={130} height={130} src={gif4} />
+                    <Image className={styles.gif4} alt="also" width={130} height={130 } src={gif4} />
                 </div>
             </div>
             <div className={cn(inter.className, styles.h2)}>

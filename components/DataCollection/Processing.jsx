@@ -4,6 +4,9 @@ import Image from 'next/image';
 import localFonts from "next/font/local";
 import styles from "./DataCollection.module.css";
 
+import processing from "../../public/video/2.mp4";
+import substract from "../../public/image/Subtract.png";
+
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
 const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-Regular.ttf" });
 
@@ -13,7 +16,7 @@ export default function Processing() {
             <div className={styles.imageContainer}>
                 <div>
                     <Image
-                        src="/image/Subtract.png"
+                        src={substract}
                         alt="subtract"
                         className={styles.img}
                         width={1398}
@@ -28,9 +31,9 @@ export default function Processing() {
                         loop
                         muted
                         className={cn(styles.video, "embed-responsive-item")}
-                    >
-                        <source src={"/video/2.mp4"} type="video/mp4" />
-                    </video>
+                        src={processing}
+                    />
+
                 </div>
             </div>
             <div className={cn(inter.className, styles.textContainer)}>
@@ -168,26 +171,17 @@ export default function Processing() {
                                 <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>Live OCR</div>
                                 </div>
-                                <div
-                                    className={cn(jet.className, styles.frame)}
-
-                                >
+                                <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>
                                         Marketing and domain analysis
                                     </div>
                                 </div>
-                                <div
-                                    className={cn(jet.className, styles.frame)}
-
-                                >
+                                <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>
                                         Development of data collection services
                                     </div>
                                 </div>
-                                <div
-                                    className={cn(jet.className, styles.frame)}
-
-                                >
+                                <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>
                                         Integration of digital marketing services
                                     </div>
@@ -196,26 +190,17 @@ export default function Processing() {
                                 <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>Live OCR</div>
                                 </div>
-                                <div
-                                    className={cn(jet.className, styles.frame)}
-
-                                >
+                                <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>
                                         Marketing and domain analysis
                                     </div>
                                 </div>
-                                <div
-                                    className={cn(jet.className, styles.frame)}
-
-                                >
+                                <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>
                                         Development of data collection services
                                     </div>
                                 </div>
-                                <div
-                                    className={cn(jet.className, styles.frame)}
-
-                                >
+                                <div className={cn(jet.className, styles.frame)}>
                                     <div className={styles.frameText}>
                                         Integration of digital marketing services
                                     </div>

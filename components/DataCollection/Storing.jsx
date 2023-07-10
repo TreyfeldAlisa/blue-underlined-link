@@ -4,6 +4,9 @@ import Image from 'next/image';
 import localFonts from "next/font/local";
 import styles from "./DataCollection.module.css";
 
+import storing from "../../public/video/3.mp4";
+import substract from "../../public/image/Subtract.png"
+
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
 const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-Regular.ttf" });
 
@@ -13,7 +16,7 @@ export default function Storing() {
             <div className={styles.imageContainer}>
                 <div>
                     <Image
-                        src="/image/Subtract.png"
+                        src={substract}
                         alt="subtract"
                         className={styles.img}
                         width={1398}
@@ -28,9 +31,9 @@ export default function Storing() {
                         loop
                         muted
                         className={cn(styles.video, "embed-responsive-item")}
-                    >
-                        <source src={"/video/3.mp4"} type="video/mp4" />
-                    </video>
+                        src={storing}
+                    />
+
                 </div>
             </div>
             <div className={cn(inter.className, styles.textContainer)}>

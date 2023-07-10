@@ -1,5 +1,8 @@
-import styles from "./Background.module.css";
 import cn from "classnames";
+
+import styles from "./Background.module.css";
+
+import background from "../../public/video/ASCII.mp4";
 
 export default function Background() {
     return (
@@ -13,9 +16,8 @@ export default function Background() {
                     loop
                     muted
                     className={cn(styles.video, "embed-responsive-item")}
-                >
-                    <source src={"./video/ASCII.mp4"} type="video/mp4" />
-                </video>
+                    src={background}
+                />
             </div>
         </div>
     );

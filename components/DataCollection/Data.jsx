@@ -7,13 +7,16 @@ import styles from "./DataCollection.module.css";
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
 const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-Regular.ttf" });
 
+import data from "../../public/video/1.mp4"
+import substract from "../../public/image/Subtract.png";
+
 export default function Data() {
     return (
         <div className={styles.container} id="services" style={{ top: "50rem" }}>
             <div className={styles.imageContainer}>
                 <div>
                     <Image
-                        src="/image/Subtract.png"
+                        src={substract}
                         alt="subtract"
                         className={styles.img}
                         width={1398}
@@ -21,9 +24,15 @@ export default function Data() {
                     />
                 </div>
                 <div>
-                    <video controls autoPlay playsInline loop muted className={styles.video}>
-                        <source src={"/video/1.mp4"} type="video/mp4" />
-                    </video>
+                    <video
+                        controls
+                        autoPlay
+                        playsInline
+                        loop
+                        muted
+                        className={styles.video}
+                        src={data}
+                    />
                 </div>
             </div>
             <div className={cn(inter.className, styles.textContainer)}>
