@@ -1,0 +1,224 @@
+.container {
+    height: 100%;
+
+    width: 70vw;
+    left: calc(50% - 832px / 2 - 1px);
+    top: 27vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    gap: 0.8rem;
+}
+
+.header {
+    width: 51.125rem;
+    height: 12rem;
+    flex-shrink: 0;
+
+    margin-bottom: 6.5rem;
+}
+
+.h1 {
+    display: flex;
+    width: 51.125rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #dadfe5;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.36rem;
+}
+
+.text {
+    display: flex;
+    width: 51.125rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #dadfe5;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.09rem;
+
+    margin-top: 1.5rem;
+}
+
+.cardContainer {
+    height: 86rem;
+    width: 51.125rem;
+    display: inline-flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.bigCard {
+    display: flex;
+    position: relative;
+    padding: 10.625rem 25.625rem 1.5rem 1.5rem;
+    align-items: center;
+    border-radius: 0.25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.twoCards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    height: 31.5rem;
+    width: 51.125rem;
+}
+
+.smallCard {
+    display: flex;
+    height: 100%;
+    width: 25rem;
+
+    padding: 19.125rem 4.3125rem 1.5rem 1.5rem;
+    flex-direction: column;
+
+    border-radius: 0.25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card1 {
+    background-image: linear-gradient(0deg, rgb(89, 3, 3, 0.7), rgb(89, 3, 3, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card2 {
+    background-image: linear-gradient(0deg, rgb(31, 3, 89, 0.7), rgb(31, 3, 89, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card3 {
+    background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card4 {
+    background-image: linear-gradient(0deg, rgb(89, 34, 3, 0.7), rgb(89, 34, 3, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card5 {
+    background-image: linear-gradient(0deg, rgb(3, 58, 89, 0.7), rgb(3, 58, 89, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card6 {
+    background-image: linear-gradient(0deg, rgb(31, 89, 3, 0.7), rgb(31, 89, 3, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card7 {
+    background-image: linear-gradient(0deg, rgb(147, 97, 0, 0.7), rgb(147, 97, 0, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card8 {
+    background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card9 {
+    background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.card10 {
+    background-image: linear-gradient(0deg, rgb(89, 3, 49, 0.7), rgb(89, 3, 49, 0.7)),
+        url(/image/bigCardbackground.gif);
+}
+
+.point {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+
+    background: #dadfe5;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 40px;
+    margin-bottom: 1vh;
+}
+
+.cardHeader {
+    display: flex;
+    width: 24rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #dadfe5;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.18rem;
+}
+
+.smallCardHeader {
+    display: flex;
+    width: 19rem;
+    flex-direction: column;
+    color: #dadfe5;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.18rem;
+}
+
+.button {
+    display: flex;
+    width: 24.875rem;
+    height: 4.875rem;
+    padding: 1.75rem 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+    border-radius: 3.75rem;
+    background: #141517;
+
+    color: #dadfe5;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    letter-spacing: -0.06rem;
+
+    margin-top: 4rem;
+    margin-left: 13rem;
+}
+
+.button:hover {
+    background: #202024;
+}
+
+.button:active {
+    background: #141517;
+}

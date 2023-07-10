@@ -1,0 +1,37 @@
+{
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v3.5.30",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"extras":{
+				"zen_display":{
+					"stacked":0,
+					"finished":0,
+					"stretch":0
+				},
+				"last_cached_frame":-500000,
+				"bc":{
+					"snap":{
+						"hit":0
+					}
+				},
+				"fluentProp":{
+					"model_resolution":16,
+					"width":0.009999999776482582,
+					"min_auto_bevel_segments":4,
+					"min_auto_cylinder_segments":16
+				},
+				"uuid":"5dc4c425-0054-4752-8e61-72de0b52603e",
+				"assets reported":{},
+				"uvpm3_props":{},
+				"custom_error":[
+					"Scene compositor use nodes turned on to enable caching"
+				]
+			},
+			"name":"Scene"
+		}
+	]
+}

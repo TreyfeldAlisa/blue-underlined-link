@@ -1,0 +1,43 @@
+.container {
+    z-index: 1;
+    width: 500px;
+    margin-top: -1vw;
+    margin-right: -8rem;
+}
+
+.textContainer {
+    width: 35vw;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 1rem;
+}
+
+.img {
+    border-radius: 0.25rem;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.name {
+    display: flex;
+    width: 23.375rem;
+    flex-direction: column;
+    color: #dadfe5;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.12rem;
+}
+
+.role {
+    color: #dadfe5;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.09rem;
+    opacity: 0.800000011920929;
+}

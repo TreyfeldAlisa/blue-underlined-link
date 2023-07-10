@@ -1,0 +1,77 @@
+.nav {
+    position: sticky;
+    width: 77rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+
+    padding-top: 0.88rem;
+    left: 7rem;
+
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(17px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 57px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 5;
+}
+
+.logo {
+    width: 7.1875rem;
+    height: 3.25rem;
+    background-blend-mode: overlay, normal;
+}
+
+.linkContainer {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.link {
+    color: #fff;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.025rem;
+
+    opacity: 0.4000000059604645;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+        flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+
+    width: 10rem;
+    height: 6vh;
+
+    border-radius: 3.75rem;
+    background: #dadfe5;
+
+    color: #000;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.025rem;
+
+    color: #000000;
+}
+
+.button:hover {
+    background: #ffffff;
+}
+
+.button:active {
+    background: #dadfe5;
+}

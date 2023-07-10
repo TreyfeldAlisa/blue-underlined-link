@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "/allworks": [
+      "static/media/1e3e4a3108c86bc3-s.p.ttf",
+      "static/media/e073a08deb6d2d51-s.p.ttf",
+      "static/media/1e3e4a3108c86bc3-s.p.ttf",
+      "static/media/e073a08deb6d2d51-s.p.ttf"
+    ],
+    "/": [
+      "static/media/1e3e4a3108c86bc3-s.p.ttf",
+      "static/media/e073a08deb6d2d51-s.p.ttf",
+      "static/media/1e3e4a3108c86bc3-s.p.ttf",
+      "static/media/e073a08deb6d2d51-s.p.ttf"
+    ]
+  },
+  "app": {},
+  "appUsingSizeAdjust": false,
+  "pagesUsingSizeAdjust": true
+}

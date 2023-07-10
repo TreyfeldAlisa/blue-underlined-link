@@ -1,0 +1,173 @@
+.mainPage {
+    width: 70vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: calc(50% - 832px / 2 - 1px);
+    bottom: 22vh;
+    margin-left: -1vw;
+}
+
+.textContainer {
+    position: absolute;
+    top: -9vh;
+}
+
+.textTitle {
+    display: flex;
+    width: 52rem;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #dadfe5;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76%;
+    letter-spacing: -0.48rem;
+}
+
+.text {
+    display: flex;
+    width: 17.3125rem;
+    flex-direction: column;
+
+    color: #dadfe5;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.0225rem;
+    text-transform: uppercase;
+    order: 1;
+    flex-grow: 0;
+    position: relative;
+    margin-left: 4vh;
+    top: 2rem;
+    
+}
+
+.videoContainer {
+    display: flex;
+    align-items: center;
+    gap: -1.5rem;
+    margin-right: 5rem;
+}
+
+.video {
+    width: 4.5rem;
+    height: 4.5rem;
+    background: linear-gradient(0deg, #dadfe5, #dadfe5), url(/image/ezgif.com-gif-maker.gif),
+        lightgray -56.699px -20.691px / 251.295% 140% no-repeat;
+    background-blend-mode: darken, normal;
+    border-radius: 3.75rem;
+    opacity: 0.4000000059604645;
+
+    position: absolute;
+}
+
+.container {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6vh 0 6vh 0;
+}
+
+.button {
+    display: flex;
+    width: 51.4375rem;
+    padding: 1.75rem 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+
+    position: absolute;
+    margin-top: 2vh;
+
+    background: #0067f4;
+    border-radius: 3.75rem;
+
+    text-align: center;
+    line-height: 90%;
+    letter-spacing: -0.06rem;
+    font-size: 1.5rem;
+
+    color: #ffffff;
+}
+
+.button:hover {
+    background: #2984ff;
+}
+
+.button:active {
+    background: #0067f4;
+}
+
+@media screen and (max-width: 390px) {
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        align-content: center;
+        left: 0;
+        margin-left: 0;
+        top: 70vh;
+    }
+    .textContainer {
+        top: -20vh;
+    }
+    .textTitle {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-left: 10px;
+
+        font-size: 20vw;
+        line-height: 90%;
+    }
+
+    .text {
+        flex-wrap: nowrap;
+        width: 80%;
+
+        font-size: 14px;
+
+        padding-top: 3vh;
+
+        margin-left: 2px;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: center;
+
+        margin-top: -10px;
+    }
+
+    .button {
+        width: 95%;
+        height: 8vh;
+
+        font-size: 20px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .videoContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width: 100%;
+        padding-left: 10px;
+
+        margin-top: -10vh;
+    }
+}

@@ -1,0 +1,105 @@
+.container {
+    height: 100%;
+
+    width: 60rem;
+    left: calc(50% - 832px / 2 - 1px);
+    top: 150rem;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.h1 {
+    display: flex;
+        width: 43.5625rem;
+        flex-direction: column;
+        flex-shrink: 0;
+    font-size: 8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 76%;
+        letter-spacing: -0.48rem;
+
+    margin-top: 20px;
+    margin-right: 2vw;
+
+    color: #dadfe5;
+}
+
+.h1Color {
+    color: #0067f4;
+}
+
+.textContainer {
+    display: flex;
+        width: 34.375rem;
+        height: 13.5rem;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin-top: 4rem;
+        margin-left: 12rem;
+}
+
+.text {
+    color: #DADFE5;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -0.12rem;
+
+    text-align: left;
+}
+
+.substract {
+    display: flex;
+    flex-direction: row;
+}
+
+.substractContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1vw;
+}
+
+.substractContainerBlue {
+    right: -2rem;
+}
+
+.substractContainerPink {
+    margin-left: -12rem;
+    margin-top: -2rem;
+}
+.substractContainerGreen {
+    right: -5.5rem;
+    top: 27rem;
+}
+
+.frame {
+    z-index: 0;
+    width: 23rem;
+    height: 23rem;
+}
+
+.substractText {
+    text-align: center;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -0.18rem;
+    z-index: 1;
+    position: absolute;
+}
+.blue {
+    color: #0f74ff;
+}
+.green {
+    color: #24F946;
+}
+.pink {
+    color: #FF3998;
+}

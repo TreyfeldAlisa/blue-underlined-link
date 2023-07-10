@@ -1,0 +1,46 @@
+.container {
+    width: 110vw;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    height: 100vh !important;
+    position: absolute;
+    left: -2vw;
+    top: -30vh;
+    z-index: 1;
+    color: #2984ff;
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+    width: 100%;
+    height: 31vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 100%;
+    height: 31vh !important;
+    position: absolute;
+    top: 2vh;
+    padding: 0;
+    left: 0;
+}
+}
+
+.model {
+    background: linear-gradient(0deg, rgba(79, 75, 255, 0.33), rgba(79, 75, 255, 0.33)),
+        url(/image/untitled.png);
+    background-blend-mode: overlay, normal;
+    opacity: 0.3;
+    filter: blur(7px);
+}

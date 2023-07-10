@@ -1,0 +1,77 @@
+.container {
+    height: 100%;
+
+    width: 70rem;
+    left: calc(50% - 832px / 2 - 1px);
+    top: 130rem;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.imageBlockRight {
+    width: 30rem;
+    margin-top: -4vh;
+    margin-left: 20.7rem;
+    display: flex;
+}
+
+.imageBlockLeft {
+    width: 30rem;
+    margin-left: -3vw;
+    display: flex;
+}
+
+.h1 {
+    display: flex;
+    width: 29.0625rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    display: flex;
+    width: 29.0625rem;
+    flex-direction: column;
+    color: #dadfe5;
+    flex-shrink: 0;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76%;
+    letter-spacing: -0.48rem;
+
+    margin-top: 20px;
+
+    z-index: 0;
+}
+
+.button {
+    display: flex;
+    width: 24.875rem;
+    height: 4.875rem;
+    padding: 1.75rem 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+
+    background: #141517;
+    border-radius: 3.75rem;
+
+    color: #dadfe5;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    letter-spacing: -0.06rem;
+    margin-top: 6rem;
+    margin-left: 14rem;
+}
+
+.button:hover {
+    background: #202024;
+}
+
+.button:active {
+    background: #141517;
+}
