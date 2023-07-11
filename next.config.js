@@ -6,7 +6,7 @@ const withVideos = require("next-videos");
 const with3D = require("next-transpile-modules")(["@react-three/fiber", "@react-three/drei"]);
 
 const nextConfig = {
-    distDir: 'build',
+    distDir: 'out',
     output: "export",
     assetPrefix: "/blue-underlined-link/",
     basePath: "/blue-underlined-link",
