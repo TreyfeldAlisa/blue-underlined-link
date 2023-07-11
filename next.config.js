@@ -13,15 +13,15 @@ const nextConfig = {
                 test: /\.svg$/,
                 loader: "svg-inline-loader",
             },
-{
-      test: /\.(glb|gltf)$/,
-      use: {
-        loader: "file-loader",
-      },
-    }
-        ],
+            {
+                  test: /\.(glb|gltf)$/,
+                  use: {
+                    loader: "file-loader",
+                  },
+            }
+                ],
     },
-});
+};
 
 
 module.exports = withVideos(nextConfig);
