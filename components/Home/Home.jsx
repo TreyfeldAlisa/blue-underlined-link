@@ -36,7 +36,7 @@ export default function Home() {
                     <div className="overflow-hidden">
                         <Image
                             className={styles.video}
-                            src={gif}
+                            src={'../../public/image/ezgif.com-gif-maker.gif'}
                             alt="gif"
                             width={72}
                             height={72}
