@@ -11,6 +11,9 @@ const nextConfig = {
     publicRuntimeConfig: {
         staticFolder: "/public",
     },
+    images: {
+        unoptimized: true,
+      },
     webpack(config) {
         config.module.rules.push(
             {
