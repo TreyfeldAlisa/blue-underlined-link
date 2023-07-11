@@ -4,7 +4,6 @@ import Image from 'next/image';
 import localFonts from "next/font/local";
 import styles from "./DataCollection.module.css";
 
-import storing from "../../public/video/3.mp4";
 import substract from "../../public/image/Subtract.png"
 
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
@@ -31,9 +30,8 @@ export default function Storing() {
                         loop
                         muted
                         className={cn(styles.video, "embed-responsive-item")}
-                        src={storing}
+                        src={require("../../public/video/3.mp4")}
                     />
-
                 </div>
             </div>
             <div className={cn(inter.className, styles.textContainer)}>
