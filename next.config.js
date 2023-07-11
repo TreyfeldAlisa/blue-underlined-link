@@ -19,7 +19,7 @@ const nextConfig = {
         config.module.rules.push(
             {
                 test: /\.(glb|gltf)$/,
-                loader: "file-loader",
+                loader: "file-loader?name=glb/[name].[ext]",
             },
             {
                 test: /\.mp4$/,
