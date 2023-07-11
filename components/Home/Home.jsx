@@ -4,7 +4,7 @@ import localFonts from "next/font/local";
 import styles from "./Home.module.css";
 import Image from "next/image";
 
-// import gif from "../../public/image/ezgif.com-gif-maker.gif";
+import gif from "../../public/image/ezgif.com-gif-maker.gif";
 
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
 const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-Regular.ttf" });
@@ -22,7 +22,7 @@ export default function Home() {
                     <div className="overflow-hidden">
                         <Image
                             className={styles.video}
-                            src={'../../public/image/ezgif.com-gif-maker.gif'}
+                            src={gif}
                             alt="gif"
                             width={72}
                             height={72}
@@ -36,7 +36,7 @@ export default function Home() {
                     <div className="overflow-hidden">
                         <Image
                             className={styles.video}
-                            src={'../../public/image/ezgif.com-gif-maker.gif'}
+                            src={gif}
                             alt="gif"
                             width={72}
                             height={72}
