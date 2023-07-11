@@ -29,7 +29,7 @@ export default function Also() {
                         loop
                         muted
                         className={cn(styles.video, styles.also, "embed-responsive-item")}
-                        src={require("../../public/video/4.mp4")}
+                        src={require('../../public/video/4.mp4')}
                     />
                 </div>
             </div>
