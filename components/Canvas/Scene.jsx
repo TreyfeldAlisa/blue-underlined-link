@@ -3,11 +3,13 @@ import { Canvas } from "@react-three/fiber";
 import { useGLTF, Center, OrbitControls, PresentationControls } from "@react-three/drei";
 import { Suspense } from "react";
 
+import model from "../../public/glb/WIP3D.gltf";
+
 import styles from "./Scene.module.css";
 
 const Model = () => {
     const group = useRef();
-    const { nodes, materials } = useGLTF("/glb/WIP3D.gltf");
+    const { nodes, materials } = useGLTF(model);
     return (
         <group ref={group} dispose={null}>
             <primitive
@@ -19,7 +21,7 @@ const Model = () => {
     );
 };
 
-useGLTF.preload("/glb/WIP3D.gltf");
+useGLTF.preload(model);
 
 export default function CanvasScene() {
     return (
