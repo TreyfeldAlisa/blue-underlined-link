@@ -2,14 +2,9 @@
  * @type {import('next').NextConfig}
  * */
 
-const withTM = require("next-transpile-modules")([
-  "three/examples/jsm/lines/LineGeometry",
-  "@react-three/drei",
-     "@react-three/fiber",
-"three, react-three-fiber", "drei"
-])
+const withVideos = require('next-videos')
 
-const nextConfig = withTM({
+const nextConfig = {
     reactStrictMode: true,
     transpilePackages: ["three, react-three-fiber", "drei"],
     module: {
@@ -24,15 +19,9 @@ const nextConfig = withTM({
         loader: "file-loader",
       },
     }
-            {
-                test: /\.(mp4|webm|ogg|swf|ogv)$/,
-                loader: "file-loader",
-            },
-            {
-                test: /\.gif$/,
-                loader: "file-loader",
         ],
     },
 });
 
-module.exports = nextConfig;
+
+module.exports = withVideos(nextConfig);
