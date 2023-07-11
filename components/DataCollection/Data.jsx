@@ -7,7 +7,6 @@ import styles from "./DataCollection.module.css";
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
 const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-Regular.ttf" });
 
-import data from "../../public/video/1.mp4"
 import substract from "../../public/image/Subtract.png";
 
 export default function Data() {
@@ -31,7 +30,7 @@ export default function Data() {
                         loop
                         muted
                         className={styles.video}
-                        src={data}
+                        src={require("../../public/video/1.mp4")}
                     />
                 </div>
             </div>
