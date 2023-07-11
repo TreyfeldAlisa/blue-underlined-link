@@ -1,8 +1,12 @@
 import React from "react";
 import cn from "classnames";
-import Image from 'next/image';
+// import img from 'next/img';
 import localFonts from "next/font/local";
 import styles from "./How.module.css";
+
+import blue from '../../public/image/Subtractblue.png';
+import pink from "../../public/image/Subtractpink.png";;
+import green from "../../public/image/Subtractgreen.png";
 
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
 
@@ -15,13 +19,7 @@ export default function HowWeCan() {
                     <div className={cn(inter.className, styles.h1)}>about how we can</div>
                 </div>
                 <div className={cn(styles.substractContainer, styles.substractContainerBlue)}>
-                    <Image
-                        src="/image/Subtractblue.png"
-                        alt="blue"
-                        className={styles.frame}
-                        width={1398}
-                        height={8}
-                    />
+                    <img src={blue} alt="blue" className={styles.frame} width={1398} height={8} />
                     <span className={cn(inter.className, styles.substractText, styles.blue)}>
                         improve <br /> your
                         <br /> processes <br />
@@ -33,9 +31,9 @@ export default function HowWeCan() {
 
             <div className={cn(inter.className, styles.substract, styles.subtractGreenPink)}>
                 <div className={cn(styles.substractContainer, styles.substractContainerPink)}>
-                    <Image
-                        src="/image/Subtractpink.png"
-                        alt="blue"
+                    <img
+                        src={pink}
+                        alt="pink"
                         className={styles.frame}
                         width={1398}
                         height={8}
@@ -55,9 +53,9 @@ export default function HowWeCan() {
                     </div>
                 </div>
                 <div className={cn(styles.substractContainer, styles.substractContainerGreen)}>
-                    <Image
-                        src="/image/Subtractgreen.png"
-                        alt="blue"
+                    <img
+                        src={green}
+                        alt="green"
                         className={styles.frame}
                         width={1398}
                         height={8}

@@ -2,7 +2,7 @@ import React from "react";
 import cn from "classnames";
 import localFonts from "next/font/local";
 import styles from "./Home.module.css";
-import Image from "next/image";
+// import img from "next/img";
 
 import gif from "../../public/image/ezgif.com-gif-maker.gif";
 
@@ -20,7 +20,7 @@ export default function Home() {
             <div className={cn(styles.container)}>
                 <div className={cn(styles.videoContainer)}>
                     <div className="overflow-hidden">
-                        <Image
+                        <img
                             className={styles.video}
                             src={gif}
                             alt="gif"
@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
                 <div className={cn(styles.videoContainer)}>
                     <div className="overflow-hidden">
-                        <Image
+                        <img
                             className={styles.video}
                             src={gif}
                             alt="gif"

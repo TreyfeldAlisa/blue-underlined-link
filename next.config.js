@@ -2,32 +2,13 @@
  * @type {import('next').NextConfig}
  * */
 
-const withVideos = require("next-videos");
-const with3D = require("next-transpile-modules")(["@react-three/fiber", "@react-three/drei"]);
+const withVideos = require('next-videos');
+const withImages = require('next-images');
+
 
 const nextConfig = {
-    distDir: 'out',
-    output: "export",
-    assetPrefix: "/blue-underlined-link/",
-    basePath: "/blue-underlined-link",
     reactStrictMode: true,
-    transpilePackages: ["@react-three/fiber", "@react-three/drei"],
-    images: {
-        unoptimized: true,
-      },
-    webpack(config) {
-        config.module.rules.push(
-            {
-                test: /\.(glb|gltf)$/,
-                use: "file-loader?name=glb/[name].[ext]",
-            },
-            {
-                test: /\.mp4$/,
-                use: "file-loader?name=videos/[name].[ext]",
-            },
-        );
-        return config;
-    },
+    transpilePackages: ["three, react-three-fiber", "drei"],
 };
 
-module.exports = with3D(withVideos(nextConfig));
+module.exports = withImages(withVideos(nextConfig));

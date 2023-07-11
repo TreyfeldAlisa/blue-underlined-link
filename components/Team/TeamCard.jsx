@@ -1,6 +1,6 @@
 import React from "react";
 import cn from "classnames";
-import Image from 'next/image';
+// import Image from 'next/image';
 import localFonts from "next/font/local";
 import styles from "./TeamCard.module.css";
 
@@ -11,7 +11,7 @@ export default function TeamCard({name, role, image}) {
     return (
         <div className={styles.container}>
             <div className={styles.image}>
-                <Image src={image} alt={name} className={styles.img} />
+                <img src={image} alt={name} className={styles.img} />
             </div>
             <div className={cn(inter.className, styles.textContainer)}>
                 <div className={cn(inter.className, styles.name)}>{name}</div>

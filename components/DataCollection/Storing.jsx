@@ -1,9 +1,10 @@
 import React from "react";
 import cn from "classnames";
-import Image from 'next/image';
+// import img from 'next/img';
 import localFonts from "next/font/local";
 import styles from "./DataCollection.module.css";
 
+// import storing from "../../public/video/3.mp4";
 import substract from "../../public/image/Subtract.png"
 
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
@@ -12,9 +13,9 @@ const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-
 export default function Storing() {
     return (
         <div className={styles.container} style={{ top: "80rem" }}>
-            <div className={styles.imageContainer}>
+            <div className={styles.imgContainer}>
                 <div>
-                    <Image
+                    <img
                         src={substract}
                         alt="subtract"
                         className={styles.img}

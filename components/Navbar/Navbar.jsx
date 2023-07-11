@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/image";
+// import img from "next/img";
 import Link from 'next/link';
 import localFonts from "next/font/local";
 import cn from 'classnames';
@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <div className={cn(styles.nav, inter.className)}>
             <Link href="#home" className={styles.logo}>
-                <Image alt="logo" src={logo} className={styles.logo} width={115} height={52}/>
+                <img alt="logo" src={logo} className={styles.logo} width={115} height={52}/>
             </Link>
             <div className={styles.linkContainer}>
                 <Link href="#about" className={styles.link}>

@@ -1,11 +1,11 @@
 .nav {
     position: sticky;
-    width: 77rem;
+    width: 90rem;
     height: 3.5rem;
     flex-shrink: 0;
+    left: 15vw;
 
     padding-top: 0.88rem;
-    left: 7rem;
 
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(17px);

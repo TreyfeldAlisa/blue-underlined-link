@@ -3,7 +3,7 @@ import cn from "classnames";
 import localFonts from "next/font/local";
 import styles from "./About.module.css";
 
-import Image from "next/image";
+// import Image from "next/image";
 import gif1 from "../../public/image/image16542.png";
 import gif2 from "../../public/image/image16541.png";
 import gif3 from "../../public/image/image1654.png";
@@ -44,7 +44,7 @@ export default function About() {
                         "overflow-hidden",
                     )}
                 >
-                    <Image className={styles.gif1} alt="data" width={128} height={124} src={gif1} />
+                    <img className={styles.gif1} alt="data" width={128} height={124} src={gif1} />
                 </div>
                 <div
                     data-tooltip="processing"
@@ -56,7 +56,7 @@ export default function About() {
                         "overflow-hidden, -ms-6",
                     )}
                 >
-                    <Image className={styles.gif2} alt="data" width={128} height={124} src={gif2} />
+                    <img className={styles.gif2} alt="data" width={128} height={124} src={gif2} />
                 </div>
                 <div
                     data-tooltip="storing_&_delivery"
@@ -68,7 +68,7 @@ export default function About() {
                         "overflow-hidden, -ms-6",
                     )}
                 >
-                    <Image
+                    <img
                         className={styles.gif3}
                         alt="storing"
                         width={128}
@@ -86,7 +86,7 @@ export default function About() {
                         "overflow-hidden, -ms-6",
                     )}
                 >
-                    <Image className={styles.gif4} alt="also" width={130} height={130 } src={gif4} />
+                    <img className={styles.gif4} alt="also" width={130} height={130 } src={gif4} />
                 </div>
             </div>
             <div className={cn(inter.className, styles.h2)}>
