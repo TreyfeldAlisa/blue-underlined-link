@@ -3,10 +3,7 @@
  * */
 
 const withVideos = require("next-videos");
-const with3D = require("next-transpile-modules")([
-    "@react-three/fiber",
-    "@react-three/drei",
-]);
+const with3D = require("next-transpile-modules")(["@react-three/fiber", "@react-three/drei"]);
 
 const nextConfig = {
     reactStrictMode: true,
@@ -15,10 +12,16 @@ const nextConfig = {
         staticFolder: "/public",
     },
     webpack(config) {
-        config.module.rules.push({
-            test: /\.(glb|gltf)$/,
-            loader: "file-loader",
-        });
+        config.module.rules.push(
+            {
+                test: /\.(glb|gltf)$/,
+                loader: "file-loader",
+            },
+            {
+                test: /\.mp4$/,
+                use: "file-loader?name=videos/[name].[ext]",
+            },
+        );
         return config;
     },
 };
