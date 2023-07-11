@@ -2,12 +2,25 @@
  * @type {import('next').NextConfig}
  * */
 
-const withVideos = require('next-videos')
+const withVideos = require("next-videos");
+const with3D = require("next-transpile-modules")([
+    "@react-three/fiber",
+    "@react-three/drei",
+]);
 
 const nextConfig = {
     reactStrictMode: true,
-    transpilePackages: ["three, react-three-fiber", "drei"],
+    transpilePackages: ["@react-three/fiber", "@react-three/drei"],
+    publicRuntimeConfig: {
+        staticFolder: "/public",
+    },
+    webpack(config) {
+        config.module.rules.push({
+            test: /\.(glb|gltf)$/,
+            loader: "file-loader",
+        });
+        return config;
+    },
 };
 
-
-module.exports = withVideos(nextConfig);
+module.exports = with3D(withVideos(nextConfig));
