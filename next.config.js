@@ -2,9 +2,7 @@
  * @type {import('next').NextConfig}
  * */
 
-const withVideos = require("next-videos");
-
-const nextConfig = withVideos({
+const nextConfig = {
     reactStrictMode: true,
     transpilePackages: ["three, react-three-fiber", "drei"],
     module: {
@@ -14,12 +12,15 @@ const nextConfig = withVideos({
                 loader: "svg-inline-loader",
             },
             {
-                test: /\.(glsl|vs|fs|vert|frag)$/,
-                exclude: /node_modules/,
-                use: ["react-three/drei"],
+                test: /\.(glb|gltf)$/,
+                loader: "file-loader",
             },
+            {
+                test: /\.(mp4|mov)$/,
+                loader: "file-loader",
+            }
         ],
     },
-});
+};
 
 module.exports = nextConfig;
