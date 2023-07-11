@@ -6,11 +6,12 @@ const withVideos = require("next-videos");
 const with3D = require("next-transpile-modules")(["@react-three/fiber", "@react-three/drei"]);
 
 const nextConfig = {
+    distDir: 'build',
+    output: "export",
+    assetPrefix: "/blue-underlined-link/",
+    basePath: "/blue-underlined-link",
     reactStrictMode: true,
     transpilePackages: ["@react-three/fiber", "@react-three/drei"],
-    publicRuntimeConfig: {
-        staticFolder: "/public",
-    },
     images: {
         unoptimized: true,
       },
