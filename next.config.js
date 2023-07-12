@@ -10,6 +10,7 @@ const nextConfig = withTM({
     reactStrictMode: true,
     images: {
         disableStaticImages: true,
+        unoptimized: true,
     },
     webpack(config, options) {
         config.module.rules.push({
