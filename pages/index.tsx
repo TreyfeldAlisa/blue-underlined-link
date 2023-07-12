@@ -19,7 +19,7 @@ export default function Main() {
     return (
         <div className="page">
             <Background />
-            <CanvasScene />
+            {/* <CanvasScene /> */}
             <Home />
             <Navbar />
             <About />
