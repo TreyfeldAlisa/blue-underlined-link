@@ -14,12 +14,14 @@ import Team from "@/components/Team/Team"
 import HowWeCan from "@/components/How/How"
 import Feedback from "@/components/Feedback/Feedback"
 import Footer from "@/components/Footer/Footer.jsx"
+import LogoGitHub from "@/components/Canvas/LogoGitHub"
 
 export default function Main() {
     return (
         <div className="page">
             <Background />
             {/* <CanvasScene /> */}
+            <LogoGitHub />
             <Home />
             <Navbar />
             <About />

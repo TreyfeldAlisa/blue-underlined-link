@@ -7,7 +7,7 @@ import styles from "./Scene.module.css";
 
 const Model = () => {
     const group = useRef();
-    const { nodes, materials } = useGLTF("/gltf/WIP3D.gltf");
+    const { nodes, materials } = useGLTF("/glb/WIP3D.gltf");
     return (
         <group ref={group} dispose={null}>
             <primitive
@@ -19,7 +19,7 @@ const Model = () => {
     );
 };
 
-useGLTF.preload("/gltf/WIP3D.gltf");
+useGLTF.preload("/glb/WIP3D.gltf");
 
 export default function CanvasScene() {
     return (
