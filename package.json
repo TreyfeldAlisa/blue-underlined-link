@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "gh-pages -d out -t true next build",
+    "build": "next build",
     "static": "next build && next export && touch ./out/.nojekyll && echo 'https://treyfeldalisa.github.io/blue-underlined-link/' > ./out/CNAME",
     "start": "next start",
     "lint": "next lint"
