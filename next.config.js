@@ -11,6 +11,7 @@ const nextConfig = {
     transpilePackages: ["@react-three-fiber", "@rect-three-drei"],
     images: {
         disableStaticImages: true,
+        unoptimized: true,
     },
 };
 
