@@ -3,7 +3,7 @@ import Footer from "@/components/Footer/Footer";
 import LetsTalk from "@/components/Works/LetsTalk";
 import Works from "@/components/Works/Works";
 import React from "react";
-import styles from "../../../components/Background/Background.module.css";
+import styles from "../components/Background/Background.module.css";
 import cn from "classnames";
 import Navbar from "@/components/Navbar/NavbarCategory";
 
@@ -18,7 +18,7 @@ const Categories = () => {
           loop
           muted
           className={cn(styles.video, "embed-responsive-item")}
-          src={require("../../../public/video/ASCII.mp4")}
+          src={require("../public/video/ASCII.mp4")}
         />
       </div>
       <Navbar />
