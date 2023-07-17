@@ -10,8 +10,8 @@ const HomePageLayout = ({ children }) => {
     <>
       <Background />
       <NavBarMinimal />
-      <CanvasScene />
-      {/* <LogoGitHub /> */}
+{/*       <CanvasScene /> */}
+      <LogoGitHub />
       <div
         style={{
           width: "95%",
