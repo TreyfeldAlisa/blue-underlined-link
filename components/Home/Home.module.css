@@ -1,4 +1,4 @@
-.mainPage {
+/* .mainPage {
     width: 70vw;
     position: absolute;
     display: flex;
@@ -6,11 +6,17 @@
     left: calc(50% - 832px / 2 - 1px);
     bottom: 22vh;
     margin-left: -1vw;
-}
+    z-index: 10;
+} */
 
 .textContainer {
-    position: absolute;
-    top: -9vh;
+    z-index: 10;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 
 .textTitle {
@@ -44,7 +50,7 @@
     position: relative;
     margin-left: 4vh;
     top: 2rem;
-    
+
 }
 
 .videoContainer {
@@ -104,7 +110,7 @@
     background: #0067f4;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 900px) {
     .mainPage {
         display: flex;
         flex-direction: column;
@@ -115,9 +121,11 @@
         margin-left: 0;
         top: 70vh;
     }
+
     .textContainer {
         top: -20vh;
     }
+
     .textTitle {
         display: flex;
         flex-wrap: wrap;
@@ -126,6 +134,7 @@
 
         font-size: 20vw;
         line-height: 90%;
+        width: 100%;
     }
 
     .text {
@@ -167,7 +176,7 @@
 
         width: 100%;
         padding-left: 10px;
-
-        margin-top: -10vh;
+        align-items: flex-start;
+        margin: 0 auto;
     }
 }

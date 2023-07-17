@@ -1,25 +1,26 @@
 .container {
-    height: 100%;
+    /* height: 100%;
 
     width: 60rem;
     left: calc(50% - 832px / 2 - 1px);
-    top: 150rem;
+    top: 150rem; */
 
     display: flex;
+    width: 100%;
     flex-direction: column;
     position: relative;
 }
 
 .h1 {
     display: flex;
-        width: 43.5625rem;
-        flex-direction: column;
-        flex-shrink: 0;
+    width: 43.5625rem;
+    flex-direction: column;
+    flex-shrink: 0;
     font-size: 8rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 76%;
-        letter-spacing: -0.48rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76%;
+    letter-spacing: -0.48rem;
 
     margin-top: 20px;
     margin-right: 2vw;
@@ -33,21 +34,21 @@
 
 .textContainer {
     display: flex;
-        width: 34.375rem;
-        height: 13.5rem;
-        flex-direction: column;
-        flex-shrink: 0;
-        margin-top: 4rem;
-        margin-left: 12rem;
+    width: 34.375rem;
+    height: 13.5rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 4rem;
+    margin-left: 20%;
 }
 
 .text {
     color: #DADFE5;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 110%;
-        letter-spacing: -0.12rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.12rem;
 
     text-align: left;
 }
@@ -73,6 +74,7 @@
     margin-left: -12rem;
     margin-top: -2rem;
 }
+
 .substractContainerGreen {
     right: -5.5rem;
     top: 27rem;
@@ -82,24 +84,116 @@
     z-index: 0;
     width: 23rem;
     height: 23rem;
+    /* object-fit: none; */
 }
 
 .substractText {
     text-align: center;
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 100%;
-        letter-spacing: -0.18rem;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.18rem;
     z-index: 1;
     position: absolute;
 }
+
 .blue {
     color: #0f74ff;
 }
+
 .green {
     color: #24F946;
 }
+
 .pink {
     color: #FF3998;
+}
+
+@media screen and (max-width: 1600px) {
+    .frame {
+        z-index: 0;
+        width: 15rem;
+        height: 15rem;
+        /* object-fit: none; */
+    }
+
+    .substractText {
+        font-size: 2rem;
+    }
+
+    .textContainer {
+        margin-left: 10%;
+    }
+
+    .substractContainerBlue {
+        right: -40px;
+    }
+
+    .substractContainerGreen {
+        right: -120px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    .h1 {
+        font-size: 6.5rem;
+        width: 510px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .substractContainerBlue {
+        right: -50%;
+    }
+
+    .substractContainerGreen {
+        right: -60%;
+    }
+
+    .text {
+        font-size: 1.8rem;
+    }
+
+    .h1 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .h1 {
+        font-size: 75px;
+        width: 82%;
+    }
+
+    .substract {
+        flex-direction: column;
+    }
+
+    .substractContainer {
+        position: unset;
+    }
+
+    .textContainer {
+        order: 3;
+        width: unset;
+    }
+
+    .substractContainerBlue, .substractContainerGreen {
+        transform: rotate(-14deg);
+    }
+    .substractContainerPink {
+        transform: rotate(12deg);
+        margin-top: -50px;
+    }
+
+    .substractContainerGreen {
+        margin-top: -50px;
+    }
+    .text {
+        font-size: 33px;
+        width: 75%;
+    }
 }

@@ -1,9 +1,9 @@
 .container {
-    height: 100%;
+    /* height: 100%;
 
-    width: 57rem;
-    left: calc(50% - 832px / 2 - 1px);
-    top: 170rem;
+    width: 57rem; */
+    /* left: calc(50% - 832px / 2 - 1px);
+    top: 170rem; */
 
     display: flex;
     flex-direction: column;
@@ -15,27 +15,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* gap: 20px; */
 }
 
 .input {
     background-color: black;
-    height: 10rem;
-    width: 70rem;
+    /* height: 10rem;
+    width: 70rem; */
     display: flex;
     outline: none;
     font-weight: 700;
     font-size: 5rem;
     text-align: center;
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
 
     color: #dadfe5;
+    height: 132px;
 }
 
-.input:first-child {
+/* .input:first-child {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+} */
 
 /* .description {
     background-color: black;
@@ -61,12 +63,15 @@
     letter-spacing: -0.48rem;
     opacity: 0.30000001192092896;
 }
+
 /* .description:hover, */
 .input:hover {
     opacity: 0.6;
     outline: none;
     color: #dadfe5;
+    width: 100%;
 }
+
 /* .description:active, */
 .input:active {
     opacity: 0;
@@ -74,6 +79,7 @@
     font-weight: 700;
     font-size: 8rem;
     overflow: auto;
+    width: 100%;
 }
 
 .button {
@@ -101,6 +107,43 @@
 .button:hover {
     background: #2984ff;
 }
+
 .button:active {
     background: #0067f4;
+}
+
+@media screen and (max-width: 900px) {
+    .input::placeholder {
+        font-size: 60px;
+        letter-spacing: 1px;
+        overflow: hidden;
+    }
+
+    .input {
+        width: 100%;
+        font-size: 60px;
+        overflow: hidden;
+        height: unset;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .inputGroup {
+        width: 100% !important;
+
+    }
+
+    .input:active {
+        width: 100%;
+    }
+
+    .input:hover {
+        width: 100%;
+    }
+
+    .container {
+        margin-bottom: 100px;
+    }
 }

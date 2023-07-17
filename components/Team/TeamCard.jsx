@@ -10,9 +10,9 @@ const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-
 export default function TeamCard({name, role, image}) {
     return (
         <div className={styles.container}>
-            <div className={styles.image}>
+            {/* <div className={styles.image}> */}
                 <img src={image} alt={name} className={styles.img} />
-            </div>
+            {/* </div> */}
             <div className={cn(inter.className, styles.textContainer)}>
                 <div className={cn(inter.className, styles.name)}>{name}</div>
                 <div className={cn(jet.className, styles.role)}>{role}</div>

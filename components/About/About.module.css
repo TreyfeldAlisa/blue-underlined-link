@@ -146,11 +146,9 @@
 
     overflow: hidden;
 
-    background: radial-gradient(
-            50% 50% at 50% 50%,
+    background: radial-gradient(50% 50% at 50% 50%,
             rgba(255, 255, 255, 0) 53.65%,
-            rgba(255, 255, 255, 0.04) 100%
-        ),
+            rgba(255, 255, 255, 0.04) 100%),
         #141517;
     border-radius: 12.5rem;
     border: 2px dashed rgba(255, 255, 255, 0.1);
@@ -268,4 +266,53 @@
 
 .button:active {
     background: #141517;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        left: 0;
+        width: 100%;
+        margin-bottom: 400px;
+    }
+
+    .nav {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .bul {
+        white-space: nowrap;
+        margin-left: 0;
+    }
+
+    .h1 {
+        font-size: 4em;
+        width: 100%;
+        letter-spacing: 0;
+    }
+
+    .text {
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .textContainer {
+        margin-left: 39%;
+    }
+
+    .gif {
+        margin: 70px 10px;
+        justify-content: space-around;
+    }
+
+    .h2 {
+        width: 84%;
+        font-size: 40px;
+        margin: 0 auto;
+    }
+
+    .frame {
+        width: 6.9em;
+        height: 6.9em;
+    }
 }

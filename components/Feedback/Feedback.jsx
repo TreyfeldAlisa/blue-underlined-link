@@ -51,7 +51,7 @@ export default function HowWeCan() {
                     type="input"
                     name="task"
                     className={cn(styles.input, styles.description)}
-                    placeholder="Description task"
+                    placeholder="Description"
                 />
             </div>
             <button className={cn(inter.className, styles.button)}>Send</button>

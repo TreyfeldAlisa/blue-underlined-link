@@ -93,9 +93,6 @@ export default function About() {
                 Primarily our work lies in domains of digital marketing, trading, betting and
                 esports.
             </div>
-            <button className={cn(inter.className, styles.button)}>
-                View all our works &ensp; &rarr;
-            </button>
         </div>
     );
 }

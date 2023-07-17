@@ -328,6 +328,7 @@
         top: unset;
         left: unset;
         margin: 0 auto;
+        /* margin-top: 600px; */
     }
 
     .textContainer {
@@ -353,8 +354,7 @@
     .gorizontalBlock {
         width: 100%;
         height: unset;
-        padding-top: 5em;
-        padding-bottom: 3em;
+        padding-top: 3em;
     }
 
     .frameContainer {
@@ -364,19 +364,20 @@
 
     .verticalBlockContainer {
         flex-direction: column;
-        /* width: 100%; */
-        width: 110%;
+        width: 100%;
+        margin-bottom: 13px;
+        margin-top: -43px;
     }
 
     .verticalBlock {
-        width: 91%;
+        width: 98%;
         height: 20rem;
         margin-top: unset;
     }
 
     .verticalOverflow {
         height: unset;
-        width: unset;
+        /* width: unset; */
         margin-right: unset;
     }
 
@@ -384,6 +385,7 @@
         width: 100%;
         height: unset;
         gap: 10px;
+        margin-bottom: 11%;
     }
 
     .frame {
@@ -412,10 +414,18 @@
 
     .verticalOverflow {
         margin: 10px 0;
+        width: 102%;
     }
+
 
     .overflow {
         width: 100%;
         height: 299px;
+
     }
+
+    .myImgContainer {
+        margin-top: 2000px;
+    }
+
 }
