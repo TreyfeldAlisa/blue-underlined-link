@@ -3,6 +3,7 @@ import CanvasScene from "@/components/Canvas/Scene";
 import Footer from "@/components/Footer/Footer";
 import NavBarMinimal from "@/components/Navbar/NavBarMinimal";
 import Navbar from "@/components/Navbar/Navbar";
+import LogoGitHub from "@/components/Canvas/LogoGitHub"
 import React from "react";
 
 const HomePageLayout = ({ children }) => {
