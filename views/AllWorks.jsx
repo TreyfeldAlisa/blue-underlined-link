@@ -11,7 +11,7 @@ export default function AllWorks() {
       <Background />
         <NavbarAllWorks shouldBeWithLinks />
         <Works />
-        {/* <LetsTalk /> */}
+        <LetsTalk />
         <Footer />
     </div>
   );
