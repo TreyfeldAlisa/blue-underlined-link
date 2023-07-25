@@ -1,5 +1,6 @@
 import Background from "@/components/Background/Background";
 // import CanvasScene from "@/components/Canvas/Scene";
+import LogoGitHub from "@/components/Canvas/LogoGitHub";
 import Footer from "@/components/Footer/Footer";
 import NavBarMinimal from "@/components/Navbar/NavBarMinimal";
 import Navbar from "@/components/Navbar/Navbar";
@@ -11,7 +12,7 @@ const HomePageLayout = ({ children }) => {
       <Background />
       <NavBarMinimal />
 {/*       <CanvasScene /> */}
-{/*       <LogoGitHub /> */}
+      <LogoGitHub />
       <div
         style={{
           width: "95%",
