@@ -1,18 +1,12 @@
-/* Components */
-import Background from "@/components/Background/Background";
-import Footer from "@/components/Footer/Footer.jsx";
-import NavbarAllWorks from "@/components/Navbar/NavbarAllWorks";
 import Works from "@/components/Works/Works";
-import LetsTalk from "@/components/Works/LetsTalk";
+import CategoriesLayout from "@/layouts/CategoriesLayout";
 
 export default function AllWorks() {
   return (
-    <div className="allworks">
-      <Background />
-        <NavbarAllWorks shouldBeWithLinks />
+    <CategoriesLayout shouldBeWithLinks={true}>
+      <div className="allworks">
         <Works />
-        <LetsTalk />
-        <Footer />
-    </div>
+      </div>
+    </CategoriesLayout>
   );
 }
