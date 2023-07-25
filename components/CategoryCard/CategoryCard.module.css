@@ -61,7 +61,7 @@
    border-radius: 0.25rem;
    background-repeat: no-repeat;
    background-size: cover;
-   background-image: linear-gradient(0deg, rgb(89, 3, 3, 0.7), rgb(89, 3, 3, 0.7)), url('./image/bigCardbackground.gif');
+   background-image: linear-gradient(0deg, rgb(89, 3, 3, 0.7), rgb(89, 3, 3, 0.7)), url('/image/bigCardbackground.gif');
 }
 
 .point {
@@ -69,6 +69,7 @@
    height: 14px;
    left: 553px;
    top: 284px;
+
    background: white;
    border-radius: 17px;
 
@@ -90,12 +91,12 @@
 
 .card2 {
    background-image: linear-gradient(0deg, rgb(31, 3, 89, 0.7), rgb(31, 3, 89, 0.7)),
-      url('./blue-underlined-link/image/bigCardbackground.gif');
+      url('/image/bigCardbackground.gif');
 }
 
 .card3 {
    background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
-      url('./blue-underlined-link/image/bigCardbackground.gif');
+      url('/image/bigCardbackground.gif');
 }
 
 .twoCards {

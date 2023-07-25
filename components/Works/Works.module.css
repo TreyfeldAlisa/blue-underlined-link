@@ -109,52 +109,52 @@
 
 .card1 {
     background-image: linear-gradient(0deg, rgb(89, 3, 3, 0.7), rgb(89, 3, 3, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card2 {
     background-image: linear-gradient(0deg, rgb(31, 3, 89, 0.7), rgb(31, 3, 89, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card3 {
     background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card4 {
     background-image: linear-gradient(0deg, rgb(89, 34, 3, 0.7), rgb(89, 34, 3, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card5 {
     background-image: linear-gradient(0deg, rgb(3, 58, 89, 0.7), rgb(3, 58, 89, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card6 {
     background-image: linear-gradient(0deg, rgb(31, 89, 3, 0.7), rgb(31, 89, 3, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card7 {
     background-image: linear-gradient(0deg, rgb(147, 97, 0, 0.7), rgb(147, 97, 0, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card8 {
     background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card9 {
     background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .card10 {
     background-image: linear-gradient(0deg, rgb(89, 3, 49, 0.7), rgb(89, 3, 49, 0.7)),
-        url(./blue-underlined-link/image/bigCardbackground.gif);
+        url(/image/bigCardbackground.gif);
 }
 
 .point {
