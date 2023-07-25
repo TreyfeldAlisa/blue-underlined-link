@@ -1,1 +1,1 @@
-export { default } from "@/views/Categories";
+export { default } from "../../views/Categories";
