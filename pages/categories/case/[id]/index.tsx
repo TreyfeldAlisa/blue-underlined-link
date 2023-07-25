@@ -1,1 +1,1 @@
-export { default } from "../../../views/Case";
+export { default } from "@/views/Case";
