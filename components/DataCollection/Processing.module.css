@@ -369,7 +369,7 @@
     }
 
     .verticalBlock {
-        width: 98%;
+        width: 100%;
         height: 20rem;
         margin-top: unset;
     }
@@ -409,6 +409,7 @@
     .header {
         margin-bottom: unset;
         font-size: 40px;
+        width: 100%;
     }
 
     .verticalOverflow {

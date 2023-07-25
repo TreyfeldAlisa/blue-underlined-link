@@ -146,4 +146,8 @@
     .container {
         margin-bottom: 100px;
     }
+
+    .button {
+        width: 100%;
+    }
 }

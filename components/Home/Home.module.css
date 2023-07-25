@@ -127,13 +127,9 @@
     }
 
     .textTitle {
-        display: flex;
-        flex-wrap: wrap;
-
-        margin-left: 10px;
-
-        font-size: 20vw;
-        line-height: 90%;
+        font-size: 64px;
+        line-height: 86%;
+        letter-spacing: -3.84px;
         width: 100%;
     }
 

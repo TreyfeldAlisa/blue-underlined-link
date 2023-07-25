@@ -48,6 +48,11 @@
         width: 100%;
     }
 
+    .name {
+        width: 100%;
+        font-size: 29px;
+    }
+
     .image {
       margin-right: unset;
     }

@@ -59,11 +59,11 @@
 }
 
 .button {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     padding: 16px 32px;
 
     /* position: absolute;

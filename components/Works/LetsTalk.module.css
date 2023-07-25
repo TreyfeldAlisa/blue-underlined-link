@@ -1,35 +1,137 @@
-.container {
-    height: 100%;
-
-    width: 70vw;
-    left: calc(50% - 832px / 2 - 1px);
-    top: 27vh;
-
+.wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    width: 95%;
+    padding-top: 200px;
+    background-color: black;
+    padding-bottom: 246px;
+}
 
-    gap: 0.8rem;
+.container {
+    width: 60%;
+    gap: 8px;
+}
+
+.img {
+    width: 70%;
 }
 
 .header {
-    width: 51.125rem;
-    height: 12rem;
-    flex-shrink: 0;
-
-    margin-bottom: 6.5rem;
+    margin-top: 95px;
+    margin-bottom: 48px;
 }
 
-.h1 {
-    display: flex;
-    width: 51.125rem;
-    flex-direction: column;
-    flex-shrink: 0;
-    color: #dadfe5;
+.h1,
+.h2 {
     font-size: 6rem;
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -0.36rem;
+}
+
+.h1 {
+    color: #0067F4;
+}
+
+.input {
+    border-radius: 4px;
+    background: #141517;
+    display: flex;
+    padding: 16px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.input::placeholder {
+    color: #DADFE5;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -1.44px;
+    opacity: 0.30000001192092896;
+}
+
+.input:hover {
+    outline: none;
+    color: #dadfe5;
+}
+
+.input:active {
+    outline: none;
+}
+
+.inputDescription {
+    display: flex;
+    width: 100%;
+    padding: 16px 24px 100px;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    padding: 20px 48px;
+    border-radius: 60px;
+    background: #0067F4;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .formInputs {
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+
+    .h1,
+    .h2 {
+        font-size: 64px;
+        line-height: 86%;
+        letter-spacing: -3.84px;
+    }
+
+    .img {
+        width: 90%;
+        height: 8px;
+    }
+
+    .wrapper {
+        padding-top: 159px;
+    }
+
+    .input::placeholder {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .wrapper {
+        padding-bottom: 64px;
+    }
 }

@@ -55,7 +55,7 @@
 
 .substract {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .substractContainer {
@@ -68,16 +68,19 @@
 
 .substractContainerBlue {
     right: -2rem;
+    width: 324px;
 }
 
 .substractContainerPink {
     margin-left: -12rem;
     margin-top: -2rem;
+    width: 324px;
 }
 
 .substractContainerGreen {
     right: -5.5rem;
     top: 27rem;
+    width: 324px;
 }
 
 .frame {
@@ -147,10 +150,16 @@
 @media (min-width: 900px) and (max-width: 1200px) {
     .substractContainerBlue {
         right: -50%;
+        width: 260px;
     }
 
     .substractContainerGreen {
         right: -60%;
+        width: 260px;
+    }
+
+    .substractContainerPink {
+        width: 260px;
     }
 
     .text {
@@ -168,10 +177,6 @@
         width: 82%;
     }
 
-    .substract {
-        flex-direction: column;
-    }
-
     .substractContainer {
         position: unset;
     }
@@ -183,10 +188,14 @@
 
     .substractContainerBlue, .substractContainerGreen {
         transform: rotate(-14deg);
+        margin-left: 10%;
+        width: 260px;
     }
     .substractContainerPink {
         transform: rotate(12deg);
         margin-top: -50px;
+        margin-left: 20%;
+        width: 260px;
     }
 
     .substractContainerGreen {

@@ -99,7 +99,7 @@
     }
 
     .h1 {
-        width: unset;
+        width: 100%;
     }
 
     .imageBlockLeft {
@@ -107,6 +107,7 @@
         flex-direction: column;
         margin-top: 50px;
         gap: 40px;
+        width: 100%;
     }
 
     .imageBlockRight {
@@ -114,17 +115,19 @@
         flex-direction: column;
         gap: 40px;
         align-self: self-end;
-        padding-left: 180px;
+        padding-left: 28%;
+        width: 100%;
     }
 
     .button {
         margin: 0 auto;
         margin-top: 50px;
+        width: 100%;
     }
     .howContainer {
         width: unset;
         padding-top: 100px;
-        padding-bottom: 200px;
+        padding-bottom: 373px;
     }
 
 }

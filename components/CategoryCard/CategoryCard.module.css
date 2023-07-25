@@ -1,0 +1,201 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   width: 95%;
+   margin: 0 auto;
+   margin-top: 400px;
+   background-color: black;
+}
+
+.header {
+   width: 45%;
+   margin: 0 auto;
+   padding-top: 64px;
+   display: flex;
+   flex-direction: column;
+   gap: 48px;
+}
+
+.h1 {
+   font-size: 6rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100%;
+   letter-spacing: -0.36rem;
+}
+
+.textContentTop,
+.textContentBottom {
+   color: #DADFE5;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%;
+   letter-spacing: -1.44px;
+}
+
+.textContentBottom {
+   font-weight: 700;
+}
+
+.frame {
+   padding: 0.75rem 1.25rem;
+   background: #000000;
+   border: 2px solid rgba(218, 223, 229, 0.3);
+   border-radius: 5.1875rem;
+}
+
+.chipsContaner {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 8px;
+}
+
+.bigCard {
+   display: flex;
+   position: relative;
+   padding: 170px 410px 24px 24px;
+   align-items: center;
+   border-radius: 0.25rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: linear-gradient(0deg, rgb(89, 3, 3, 0.7), rgb(89, 3, 3, 0.7)), url('/image/bigCardbackground.gif');
+}
+
+.point {
+   width: 14px;
+   height: 14px;
+   left: 553px;
+   top: 284px;
+
+   background: white;
+   border-radius: 17px;
+
+   margin-top: 3px;
+}
+
+.cardHeader {
+   color: #dadfe5;
+   font-size: 3rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100%;
+   letter-spacing: -0.18rem;
+}
+
+.cardContainer {
+   width: 100%;
+}
+
+.card2 {
+   background-image: linear-gradient(0deg, rgb(31, 3, 89, 0.7), rgb(31, 3, 89, 0.7)),
+      url('/image/bigCardbackground.gif');
+}
+
+.card3 {
+   background-image: linear-gradient(0deg, rgb(82, 3, 89, 0.7), rgb(82, 3, 89, 0.7)),
+      url('/image/bigCardbackground.gif');
+}
+
+.twoCards {
+   display: flex;
+   flex-direction: row;
+   margin-top: 8px;
+   gap: 8px;
+}
+
+.smallCard {
+   display: inline-flex;
+   padding: 19.125rem 2.6rem 1.5rem 1.5rem;
+   width: 50%;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.smallCardHeader {
+   display: flex;
+   flex-direction: column;
+   color: #dadfe5;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100%;
+   letter-spacing: -0.18rem;
+}
+
+.button {
+   display: flex;
+   padding: 1.75rem 9rem;
+   justify-content: center;
+   align-items: center;
+   gap: 0.75rem;
+   flex-shrink: 0;
+   border-radius: 3.75rem;
+   background: #141517;
+
+   color: #dadfe5;
+   font-size: 1.5rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 90%;
+   letter-spacing: -0.06rem;
+   margin: 100px auto;
+}
+
+@media screen and (max-width: 1200px) {
+   .twoCards {
+      flex-direction: column;
+   }
+
+   .smallCard {
+      width: 100%;
+      padding: 14.125rem 5.3125rem 1.5rem 1.5rem;
+   }
+
+   .header {
+      width: 60%;
+   }
+}
+
+@media screen and (max-width: 900px) {
+   .header {
+      width: 95%;
+   }
+
+   .h1 {
+      font-size: 56px;
+      line-height: 95%;
+      letter-spacing: -3.36px;
+   }
+
+   .textContentTop,
+   .textContentBottom {
+      font-size: 18px;
+   }
+
+   .frame {
+      padding: 12px 20px;
+      font-size: 14px;
+   }
+
+   .bigCard {
+      padding: 14.125rem 2.3125rem 1.5rem 1.5rem;
+      width: 100%;
+      margin-top: 25px;
+   }
+
+   .container {
+      margin-top: 304px;
+   }
+
+   .button {
+      padding: 24px 48px;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 32px;
+      margin-bottom: 0;
+   }
+}

@@ -27,9 +27,9 @@ export default function HowWeCan() {
           <img
             src={blue}
             alt="blue"
-            className={styles.frame}
-            width={1398}
-            height={8}
+            // className={styles.frame}
+            // width={1398}
+            // height={8}
           />
           <span
             className={cn(inter.className, styles.substractText, styles.blue)}
@@ -58,9 +58,9 @@ export default function HowWeCan() {
           <img
             src={pink}
             alt="pink"
-            className={styles.frame}
-            width={1398}
-            height={8}
+            // className={styles.frame}
+            // width={1398}
+            // height={8}
           />
           <span
             className={cn(inter.className, styles.substractText, styles.pink)}
@@ -87,9 +87,9 @@ export default function HowWeCan() {
           <img
             src={green}
             alt="green"
-            className={styles.frame}
-            width={1398}
-            height={8}
+            // className={styles.frame}
+            // width={1398}
+            // height={8}
           />
           <span
             className={cn(inter.className, styles.substractText, styles.green)}

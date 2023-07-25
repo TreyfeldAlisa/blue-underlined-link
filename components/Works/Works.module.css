@@ -231,3 +231,70 @@
 .button:active {
     background: #141517;
 }
+
+@media screen and (max-width: 900px) {
+    .container {
+        margin-top: 250px;
+    }
+
+    .twoCards {
+        flex-direction: column;
+        width: 100%;
+        height: unset;
+    }
+
+    .header {
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 80px;
+    }
+
+    .h1 {
+        width: 100%;
+        font-size: 79px;
+    }
+
+    .text {
+        width: 90%;
+        font-size: 19px;
+    }
+
+    .cardContainer {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .bigCard {
+        padding: 14.125rem 2.3125rem 1.5rem 1.5rem;
+        width: 100%;
+        height: unset;
+        margin-top: 25px;
+    }
+
+    .smallCard {
+        padding: 14.125rem 5.3125rem 1.5rem 1.5rem;
+        width: 100%;
+        height: unset;
+    }
+
+    .cardContainer {
+        height: unset;
+        width: 100%;
+    }
+
+    .smallCardHeader {
+        width: 100%;
+        letter-spacing: -1px;
+        font-size: 31px;
+    }
+
+    .cardHeader {
+        letter-spacing: -1px;
+        font-size: 31px;
+        width: 100%;
+    }
+
+    .button {
+        width: 22.875rem;
+    }
+}

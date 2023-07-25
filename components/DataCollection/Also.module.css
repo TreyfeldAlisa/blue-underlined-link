@@ -410,6 +410,7 @@
     .header {
         margin-bottom: unset;
         font-size: 40px;
+        width: 100%;
     }
 
     .verticalOverflow {
@@ -426,6 +427,13 @@
 
     .myImgContainer {
         margin-top: 2000px;
+    }
+
+    .also {
+        transform: unset;
+        width: unset;
+        height: unset;
+        margin-top: 97px;
     }
 
 }

@@ -278,11 +278,14 @@
     .nav {
         width: 100%;
         gap: 15px;
+        align-items: center;
     }
 
     .bul {
         white-space: nowrap;
         margin-left: 0;
+        font-size: 20px;
+        padding-top: 10px;
     }
 
     .h1 {
@@ -292,17 +295,24 @@
     }
 
     .text {
-        width: 350px;
-        font-size: 30px;
+        flex-shrink: unset;
     }
 
     .textContainer {
-        margin-left: 39%;
+        margin-left: 19%;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        width: 300px;
+        letter-spacing: -0.8px;
     }
 
     .gif {
-        margin: 70px 10px;
+        /* margin: 70px 10px; */
+        margin: 70px auto;
         justify-content: space-around;
+        width: 100%;
     }
 
     .h2 {

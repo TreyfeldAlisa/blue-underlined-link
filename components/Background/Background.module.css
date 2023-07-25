@@ -1,9 +1,10 @@
-/* .container {
-    display: block;
+.container {
+    /* display: block;
     height: 100%;
     width: auto;
-    background: local;
-} */
+    background: local; */
+    width: 100%;
+}
 
 .videoContainer {
     display: block;

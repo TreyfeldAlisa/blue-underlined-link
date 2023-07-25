@@ -18,6 +18,6 @@
             "@/*": ["./*"]
         }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.jsx", "components/Canvas/Box.tsx", "components/Background/Background.jsx", "components/Home/Home.jsx", "components/Navbar/Navbar.jsx"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.jsx", "components/Canvas/Box.tsx", "components/Background/Background.jsx", "components/Home/Home.jsx", "components/Navbar/Navbar.jsx", "components/CategoryCard"],
     "exclude": ["node_modules"]
 }

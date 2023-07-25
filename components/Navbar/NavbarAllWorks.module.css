@@ -1,23 +1,27 @@
 .nav {
-    position: sticky;
-    width: 90rem;
+    /* position: sticky;
+    width: 100%;
     height: 3.5rem;
     flex-shrink: 0;
     left: 15vw;
 
-    padding-top: 0.88rem;
+    padding-top: 0.88rem; */
 
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(17px);
     /* Note: backdrop-filter has minimal browser support */
 
-    border-radius: 57px;
+    /* border-radius: 57px; */
 
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
 
     z-index: 5;
+    position: fixed;
+    padding: 10px 5%;
+    width: 100%;
+    top: 0;
 }
 
 .logo {
@@ -44,26 +48,17 @@
 }
 
 .button {
-    display: flex;
-    flex-direction: row;
-        flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.75rem;
+    padding: 16px 32px;
 
-    width: 10rem;
-    height: 6vh;
+    background: #cbcbcb;
+    border-radius: 60px;
 
-    border-radius: 3.75rem;
-    background: #dadfe5;
-
-    color: #000;
-    text-align: center;
-    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
+    font-size: 17px;
     line-height: 120%;
-    letter-spacing: -0.025rem;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
 
     color: #000000;
 }
@@ -74,4 +69,25 @@
 
 .button:active {
     background: #dadfe5;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+   .nav{
+    justify-content: space-between;
+    padding: 10px 20px;
+   }
+}
+
+
+@media screen and (max-width: 900px) {
+   .nav{
+    display: none;
+   }
 }

@@ -284,12 +284,6 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@jpweeks/gltf-loader@jpweeks/gltf-loader":
-  version "2.0.0"
-  resolved "https://codeload.github.com/jpweeks/gltf-loader/tar.gz/422a33a8e944f076c54fa0cfb63f1b2acf584b2d"
-  dependencies:
-    loader-utils "^1.2.3"
-
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"

@@ -407,6 +407,7 @@
     .header {
         margin-bottom: unset;
         font-size: 40px;
+        width: 100%;
     }
 
     .verticalOverflow {
