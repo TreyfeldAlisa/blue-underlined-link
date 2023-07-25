@@ -4,7 +4,7 @@ import localFonts from "next/font/local";
 import styles from "./Home.module.css";
 // import img from "next/img";
 
-import gif from "./image/ezgif.com-gif-maker.gif";
+import gif from "../../public/image/ezgif.com-gif-maker.gif";
 
 const inter = localFonts({ src: "../../public/fonts/inter/Inter-Bold.ttf" });
 const jet = localFonts({ src: "../../public/fonts/jet-brains-mono/JetBrainsMono-Regular.ttf" });
