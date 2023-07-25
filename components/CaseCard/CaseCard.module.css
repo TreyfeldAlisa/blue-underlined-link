@@ -1,6 +1,6 @@
 .headerImg {
    background-image: linear-gradient(0deg, rgb(89, 3, 3, 0.7), rgb(89, 3, 3, 0.7)),
-      url('./blue-underlined-link/image/bigCardbackground.gif');
+      url('./image/bigCardbackground.gif');
    
    height: 320px;
    border-radius: 48px;
