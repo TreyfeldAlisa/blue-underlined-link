@@ -12,7 +12,7 @@ export const links = [
      name: "./our_team",
    },
    {
-     href: "/allworks",
+     href: "/blue-underlined-link/allworks",
      name: "./all_works",
    },
  ];
